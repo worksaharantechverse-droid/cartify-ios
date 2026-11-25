@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08CA2CF630E72C53FD9B1C09 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A3C55B0E8D39DCAE7D99B /* CartViewController.swift */; };
+		08D1B0D9787CEB20C38635A5 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BAF82956366E15D804917D /* ProductDetailViewController.swift */; };
+		109777AD1D1EC73275EBF571 /* CartStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217CCA897F5FB9AC61164091 /* CartStore.swift */; };
+		13A1D8A91701197CC04C4B6B /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568731D2B89017054B8ED603 /* CartViewModel.swift */; };
+		678AE7CE38F2CB63A50C76B3 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6B91EEC0311C453733AA3 /* ShopViewController.swift */; };
+		803587C53091C9F2ACE1CA97 /* CartifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C509BF1DF7B633C18839C2 /* CartifyTests.swift */; };
+		9373623331FC949D59702019 /* CartItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD397DED62576852BD276D /* CartItemCell.swift */; };
+		9FA39856CB62C77E99B0F6B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E93FF258FF23CD263AA9DF90 /* Assets.xcassets */; };
+		AFE5AFC487C41B0E3FF78639 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A209268D7A7B7A5CF4A1EB22 /* SceneDelegate.swift */; };
+		B1E49B3ADE2E27C1278AAFD7 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5198D85E320A818FF2953B69 /* Models.swift */; };
+		B3E72A34D3B85D9EFC6D922E /* CatalogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DED594015DEE6523D90DCB /* CatalogService.swift */; };
+		C222C2D1FA7B3AB6F01E370C /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339A62E76C5B8C286AEF5DB1 /* ProductCell.swift */; };
+		CAC21CF1669297263869BAD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DF5789F3BEB42DE32E34C /* AppDelegate.swift */; };
+		CC952C8650817B130D32BA1D /* CartifyTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C4C27654B8EED5DCD4BB1C /* CartifyTheme.swift */; };
+		D8312F1BF93137C84C3FDFCC /* CartifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EEC2D943C4A2F47AC05CC0 /* CartifyUITests.swift */; };
+		F03B2ECBBE48A1DD5A85A95B /* ShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9502A83758E3BE16DD02CC /* ShopViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0072B4A473F528D215589527 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71FD52D6A8FF71753DDC52FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 079F905E569CDACDB3CA76A0;
+			remoteInfo = Cartify;
+		};
+		F21961311D98CFE2357F97B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71FD52D6A8FF71753DDC52FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 079F905E569CDACDB3CA76A0;
+			remoteInfo = Cartify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05DED594015DEE6523D90DCB /* CatalogService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogService.swift; sourceTree = "<group>"; };
+		0C5A3C55B0E8D39DCAE7D99B /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		15C509BF1DF7B633C18839C2 /* CartifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartifyTests.swift; sourceTree = "<group>"; };
+		217CCA897F5FB9AC61164091 /* CartStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartStore.swift; sourceTree = "<group>"; };
+		2D9502A83758E3BE16DD02CC /* ShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewModel.swift; sourceTree = "<group>"; };
+		339A62E76C5B8C286AEF5DB1 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		345DF5789F3BEB42DE32E34C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36BAF82956366E15D804917D /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		383F59AE1A33ECBE40C7A108 /* Cartify.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Cartify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		514C5A040A10075F4A862EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5198D85E320A818FF2953B69 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		568731D2B89017054B8ED603 /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		63AEFED1AA516E1C52B4D0E7 /* CartifyTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CartifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A209268D7A7B7A5CF4A1EB22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C8D5C5D3C6EC4985E78293CB /* CartifyUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CartifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFD397DED62576852BD276D /* CartItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemCell.swift; sourceTree = "<group>"; };
+		E93FF258FF23CD263AA9DF90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1C4C27654B8EED5DCD4BB1C /* CartifyTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartifyTheme.swift; sourceTree = "<group>"; };
+		F2EEC2D943C4A2F47AC05CC0 /* CartifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartifyUITests.swift; sourceTree = "<group>"; };
+		F8A6B91EEC0311C453733AA3 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2CD3794C6764697770176C42 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				82C61C5C96D5173D237566FB /* Cartify */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		660D27BB316154C453C4680B /* CartifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				15C509BF1DF7B633C18839C2 /* CartifyTests.swift */,
+			);
+			path = CartifyTests;
+			sourceTree = "<group>";
+		};
+		7BC7ED84DE32E2F1C78BE911 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A52C567B199858A72A0C7B0D /* CartifyUITests */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		82C61C5C96D5173D237566FB /* Cartify */ = {
+			isa = PBXGroup;
+			children = (
+				345DF5789F3BEB42DE32E34C /* AppDelegate.swift */,
+				F1C4C27654B8EED5DCD4BB1C /* CartifyTheme.swift */,
+				CEFD397DED62576852BD276D /* CartItemCell.swift */,
+				217CCA897F5FB9AC61164091 /* CartStore.swift */,
+				0C5A3C55B0E8D39DCAE7D99B /* CartViewController.swift */,
+				568731D2B89017054B8ED603 /* CartViewModel.swift */,
+				05DED594015DEE6523D90DCB /* CatalogService.swift */,
+				514C5A040A10075F4A862EF1 /* Info.plist */,
+				5198D85E320A818FF2953B69 /* Models.swift */,
+				339A62E76C5B8C286AEF5DB1 /* ProductCell.swift */,
+				36BAF82956366E15D804917D /* ProductDetailViewController.swift */,
+				A209268D7A7B7A5CF4A1EB22 /* SceneDelegate.swift */,
+				F8A6B91EEC0311C453733AA3 /* ShopViewController.swift */,
+				2D9502A83758E3BE16DD02CC /* ShopViewModel.swift */,
+			);
+			path = Cartify;
+			sourceTree = "<group>";
+		};
+		9DAB27B86F0479CCA69FABCD = {
+			isa = PBXGroup;
+			children = (
+				E3A2DE3587B9D2EE9FDB03D7 /* Resources */,
+				2CD3794C6764697770176C42 /* Sources */,
+				D4E6589E56188FC4DE1E3233 /* Tests */,
+				7BC7ED84DE32E2F1C78BE911 /* UITests */,
+				C95689E36F11D68AA0A87585 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A52C567B199858A72A0C7B0D /* CartifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2EEC2D943C4A2F47AC05CC0 /* CartifyUITests.swift */,
+			);
+			path = CartifyUITests;
+			sourceTree = "<group>";
+		};
+		C95689E36F11D68AA0A87585 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				383F59AE1A33ECBE40C7A108 /* Cartify.app */,
+				63AEFED1AA516E1C52B4D0E7 /* CartifyTests.xctest */,
+				C8D5C5D3C6EC4985E78293CB /* CartifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4E6589E56188FC4DE1E3233 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				660D27BB316154C453C4680B /* CartifyTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		E3A2DE3587B9D2EE9FDB03D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E93FF258FF23CD263AA9DF90 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		079F905E569CDACDB3CA76A0 /* Cartify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80A8319E6AD7AA8CD6DCC389 /* Build configuration list for PBXNativeTarget "Cartify" */;
+			buildPhases = (
+				92706984F4CDE9CE0EE5B1E4 /* Sources */,
+				EBC51F97356C5ADFCAAADEA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cartify;
+			packageProductDependencies = (
+			);
+			productName = Cartify;
+			productReference = 383F59AE1A33ECBE40C7A108 /* Cartify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE779A2B95253188B16B9C19 /* CartifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB343430F055301DB8C2F03 /* Build configuration list for PBXNativeTarget "CartifyTests" */;
+			buildPhases = (
+				3180A43E9E889869C1404BCC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19E7C4BA5E323CF67FEF42E9 /* PBXTargetDependency */,
+			);
+			name = CartifyTests;
+			packageProductDependencies = (
+			);
+			productName = CartifyTests;
+			productReference = 63AEFED1AA516E1C52B4D0E7 /* CartifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D732BF8CAA593D9637FC13A9 /* CartifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40498D5C0CB6CA29AB2CFF2C /* Build configuration list for PBXNativeTarget "CartifyUITests" */;
+			buildPhases = (
+				99AEB66FC08992082BA3C382 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49B4371037497621F2C3F571 /* PBXTargetDependency */,
+			);
+			name = CartifyUITests;
+			packageProductDependencies = (
+			);
+			productName = CartifyUITests;
+			productReference = C8D5C5D3C6EC4985E78293CB /* CartifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71FD52D6A8FF71753DDC52FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					079F905E569CDACDB3CA76A0 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					CE779A2B95253188B16B9C19 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					D732BF8CAA593D9637FC13A9 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 079F905E569CDACDB3CA76A0;
+					};
+				};
+			};
+			buildConfigurationList = 1B09DF9CA783DCEBA26476D1 /* Build configuration list for PBXProject "Cartify" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 9DAB27B86F0479CCA69FABCD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C95689E36F11D68AA0A87585 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				079F905E569CDACDB3CA76A0 /* Cartify */,
+				CE779A2B95253188B16B9C19 /* CartifyTests */,
+				D732BF8CAA593D9637FC13A9 /* CartifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBC51F97356C5ADFCAAADEA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA39856CB62C77E99B0F6B2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3180A43E9E889869C1404BCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				803587C53091C9F2ACE1CA97 /* CartifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92706984F4CDE9CE0EE5B1E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC21CF1669297263869BAD9 /* AppDelegate.swift in Sources */,
+				9373623331FC949D59702019 /* CartItemCell.swift in Sources */,
+				109777AD1D1EC73275EBF571 /* CartStore.swift in Sources */,
+				08CA2CF630E72C53FD9B1C09 /* CartViewController.swift in Sources */,
+				13A1D8A91701197CC04C4B6B /* CartViewModel.swift in Sources */,
+				CC952C8650817B130D32BA1D /* CartifyTheme.swift in Sources */,
+				B3E72A34D3B85D9EFC6D922E /* CatalogService.swift in Sources */,
+				B1E49B3ADE2E27C1278AAFD7 /* Models.swift in Sources */,
+				C222C2D1FA7B3AB6F01E370C /* ProductCell.swift in Sources */,
+				08D1B0D9787CEB20C38635A5 /* ProductDetailViewController.swift in Sources */,
+				AFE5AFC487C41B0E3FF78639 /* SceneDelegate.swift in Sources */,
+				678AE7CE38F2CB63A50C76B3 /* ShopViewController.swift in Sources */,
+				F03B2ECBBE48A1DD5A85A95B /* ShopViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99AEB66FC08992082BA3C382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8312F1BF93137C84C3FDFCC /* CartifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19E7C4BA5E323CF67FEF42E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 079F905E569CDACDB3CA76A0 /* Cartify */;
+			targetProxy = F21961311D98CFE2357F97B6 /* PBXContainerItemProxy */;
+		};
+		49B4371037497621F2C3F571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 079F905E569CDACDB3CA76A0 /* Cartify */;
+			targetProxy = 0072B4A473F528D215589527 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		277F5AD967CC9DCF90805387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sources/Cartify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.portfolio.cartify;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5DF8D489CC37E41CA782C7F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.portfolio.cartify.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cartify.app/Cartify";
+			};
+			name = Release;
+		};
+		6E5A53712C712BF7CA604B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.portfolio.cartify.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cartify;
+			};
+			name = Debug;
+		};
+		855F8837C46DC6A38B57E28F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B3769021AEA97EED86E3194B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.portfolio.cartify.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cartify.app/Cartify";
+			};
+			name = Debug;
+		};
+		E6BBC3FF84D984445F5363CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.portfolio.cartify.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cartify;
+			};
+			name = Release;
+		};
+		EDD986787E29699957526958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F1891B67AEA005FBA7244B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sources/Cartify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.portfolio.cartify;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B09DF9CA783DCEBA26476D1 /* Build configuration list for PBXProject "Cartify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				855F8837C46DC6A38B57E28F /* Debug */,
+				EDD986787E29699957526958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		40498D5C0CB6CA29AB2CFF2C /* Build configuration list for PBXNativeTarget "CartifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5A53712C712BF7CA604B5F /* Debug */,
+				E6BBC3FF84D984445F5363CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		80A8319E6AD7AA8CD6DCC389 /* Build configuration list for PBXNativeTarget "Cartify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277F5AD967CC9DCF90805387 /* Debug */,
+				F1891B67AEA005FBA7244B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DDB343430F055301DB8C2F03 /* Build configuration list for PBXNativeTarget "CartifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3769021AEA97EED86E3194B /* Debug */,
+				5DF8D489CC37E41CA782C7F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71FD52D6A8FF71753DDC52FB /* Project object */;
+}
